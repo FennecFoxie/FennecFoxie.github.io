@@ -1,1 +1,1 @@
-html,body{font-family:'Lato', sans-serif;font-weight:lighter}.content-wrap{width:60%;margin:auto;padding:45px;box-shadow:0 0 20px #D6D4D4}@media print{.content-wrap{width:100%;box-shadow:none}}
+html,body{font-family:'Lato', sans-serif;font-weight:lighter}.content-wrap{width:60%;margin:auto;padding:45px;box-shadow:0 0 20px #D6D4D4}.photo{float:right;width:150px;height:150px;border-radius:50%;overflow:hidden}@media print{.content-wrap{width:100%;box-shadow:none}}
