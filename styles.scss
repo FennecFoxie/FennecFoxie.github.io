@@ -1,3 +1,5 @@
+$base-color: #1BBC9B;
+
 html, body {
   font-family: 'Lato', sans-serif;
   font-weight: lighter;
@@ -7,22 +9,72 @@ html, body {
  width: 60%;
  margin: auto;
  padding: 45px;
- // border: 1px solid #efefef;
+ border-top: 30px solid lighten( $base-color, 40% );
  box-shadow: 0 0 20px #D6D4D4;
 }
 
+header {
+  // border-bottom: 30px solid lighten( $base-color, 40% );
+}
+
 .photo {
-  float: right;
+  // float: left;
   width: 150px;
   height: 150px;
   border-radius: 50%;
   overflow: hidden;
+  margin: auto;
+}
+
+.photo img {
+  width: 150px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.name, .role {
+  text-transform: uppercase;
+ font-weight: lighter;
+}
+
+.role {
+  font-size: 1em;
+}
+
+.contacts {
+  // border: 1px solid  lighten($base-color, 40%);
+}
+
+.contact {
+ width: 33%;
+ display: inline-block;
+ text-align: center;
+}
+
+.contact > .fa {
+  margin-right: 10px;
+  // color: lighten( $base-color, 40% );
+}
+
+.subheading {
+  padding: 5px 15px;
+  color: $base-color;
+  border: 1px solid $base-color;
+   font-weight: lighter;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  letter-spacing: 0.2em;
 }
 
 
 @media print {
+
   .content-wrap {
    width: 100%;
    box-shadow: none;
+   padding: 0;
  }
 }
