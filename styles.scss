@@ -11,6 +11,7 @@ html, body {
  padding: 45px;
  border-top: 30px solid lighten( $base-color, 40% );
  box-shadow: 0 0 20px #D6D4D4;
+ box-sizing: border-box;
 }
 
 header {
@@ -87,13 +88,17 @@ header {
   }
 
   .contact {
-    width: 32%;
-    font-size: 1.3rem;
+    // width: 31%;
+    // font-size: 1.3rem;
   }
-
-   p, li {
-     font-size: 0.9rem;
-   }
+   //
+  //  p, li {
+  //    font-size: 0.9rem;
+  //  }
+   //
+  //  .subheading  {
+  //    font-size: 2rem;
+  //  }
 }
 
 @media print {
