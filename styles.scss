@@ -69,11 +69,37 @@ header {
   letter-spacing: 0.2em;
 }
 
+.uppercased {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.experience-section:not(:first-of-type) {
+  margin-top: 40px;
+}
+
+@media (max-device-width: 980px) {
+  .content-wrap {
+    width: 100%;
+  }
+
+  .contact {
+    width: 32%;
+    font-size: 1.3rem;
+  }
+
+   p, li {
+     font-size: 0.9rem;
+   }
+}
 
 @media print {
 
   .content-wrap {
-   width: 100%;
+
    box-shadow: none;
    padding: 0;
  }
